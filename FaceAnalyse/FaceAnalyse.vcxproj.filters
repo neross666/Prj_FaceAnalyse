@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{66ea581f-9358-4a14-b6a9-4dd9939cdb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Plugin">
+      <UniqueIdentifier>{23213091-dda1-492a-b0d1-adc2eeb1fab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Config">
+      <UniqueIdentifier>{8af30b8b-aefd-4471-8c3c-ed508f3efb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\spdlog">
+      <UniqueIdentifier>{ae8eb0d6-df26-4e3d-ab5c-ab5d7b5c0200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\CharSet">
+      <UniqueIdentifier>{b7b9f68c-6a03-4396-9099-94aab1a1a4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{23d62fe4-ec57-4c3b-9b23-59891136c5fd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{9273232b-0ed9-4a7d-83c8-1c1bb843e021}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Util\Database">
+      <UniqueIdentifier>{bfef29b5-f46e-4ccd-9cc2-a0e9c2cd80f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\MsgQueue">
+      <UniqueIdentifier>{bad0e050-d422-49e9-b102-9178ed8f16e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Algorithm">
+      <UniqueIdentifier>{1dbdba2e-a429-4d1e-ba0d-1f35709ca7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Algorithm\GMM">
+      <UniqueIdentifier>{53579ee4-9c80-41dc-8c1c-c792d0ec93ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Algorithm\K-means">
+      <UniqueIdentifier>{250757d6-c8f3-48da-a0cc-58399bffa757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceAnalyse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Plugin\DynamicLib.cpp">
+      <Filter>Util\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Plugin\PluginManager.cpp">
+      <Filter>Util\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\CharSet\CharSet.cpp">
+      <Filter>Util\CharSet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Config\Config.cpp">
+      <Filter>Util\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FaceAnalyse.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FaceAnalyse.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Algorithm\GMM\GMM.cpp">
+      <Filter>Util\Algorithm\GMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Algorithm\GMM\KMeans.cpp">
+      <Filter>Util\Algorithm\GMM</Filter>
+    </ClCompile>
+    <ClCompile Include="MyKMeans.cpp">
+      <Filter>Util\Algorithm\K-means</Filter>
+    </ClCompile>
+    <ClCompile Include="Pane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Pane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Pane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FaceAnalyse.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FaceAnalyse.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Pane.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_FaceAnalyse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Plugin\DynamicLib.h">
+      <Filter>Util\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Plugin\PluginInstance.h">
+      <Filter>Util\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Plugin\PluginManager.h">
+      <Filter>Util\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CharSet\CharSet.h">
+      <Filter>Util\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Config\SimpleIni\SimpleIni.h">
+      <Filter>Util\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\async_logger.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\common.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\formatter.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\logger.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\spdlog.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\tweakme.h">
+      <Filter>Util\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Config\Config.h">
+      <Filter>Util\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Algorithm\GMM\GMM.h">
+      <Filter>Util\Algorithm\GMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Algorithm\GMM\KMeans.h">
+      <Filter>Util\Algorithm\GMM</Filter>
+    </ClInclude>
+    <ClInclude Include="MyKMeans.h">
+      <Filter>Util\Algorithm\K-means</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="faceanalyse_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="faceanalyse_zh.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="指南.txt" />
+    <Text Include="k-means.txt">
+      <Filter>Util\Algorithm\K-means</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
