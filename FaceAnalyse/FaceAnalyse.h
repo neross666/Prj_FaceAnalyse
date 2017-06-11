@@ -21,6 +21,8 @@ public:
 public slots:
 	void KMeansTest();
 	void GenerateSample();
+	void ReadSample();
+	void OutputSamples();
 
 protected:
 	void paintEvent(QPaintEvent * event);
